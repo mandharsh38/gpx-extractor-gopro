@@ -203,7 +203,7 @@ def write_gpx_with_extensions(gps_data, timestamps, output_file, name, creation_
 def extract_all_gps(folder="ip"):
     folder_path = Path(folder)
     video_files = sorted(
-        list(folder_path.glob("*.360")) + list(folder_path.glob("*.mp4"))
+        list(folder_path.glob("*.360")) + list(folder_path.glob("*.mp4")) + list(folder_path.glob("*.MP4"))
     )
     
     if not video_files:

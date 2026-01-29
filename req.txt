@@ -1,3 +1,4 @@
 py-gpmf-parser
 numpy
 lxml
+gpxpy
